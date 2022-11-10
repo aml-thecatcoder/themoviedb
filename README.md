@@ -4,6 +4,8 @@ Testing with Cypress
 
 ## Available Scripts
 
+### `npm install`
+
 Start the project
 
 ### `npm start`
