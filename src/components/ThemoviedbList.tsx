@@ -9,10 +9,11 @@ interface Props {
   fullTitle: string;
   id: number;
   image: string;
+  vote_average: number;
 }
 
 const ThemoviedbList: React.FC<Props> = (props) => {
-  const { title, fullTitle, id, image, viewDetail, setDetail } = props;
+  const { title, fullTitle, vote_average, id, image, viewDetail, setDetail } = props;
   const [isSelected, setSelected] = useState(false);
   useEffect(() => {
     setSelected(id === viewDetail?.id);
@@ -35,6 +36,7 @@ const ThemoviedbList: React.FC<Props> = (props) => {
             <div className="detail-info">
               <img src={image} alt="themoviedb" className="detail-img" />
               <p className="detail-name">{fullTitle}</p>
+              <p>Rating: {vote_average}</p>
             </div>
           </div>
         </section>

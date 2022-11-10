@@ -46,6 +46,7 @@ const ThemoviedbColection: React.FC<Props> = (props) => {
                 }
                 fullTitle={themoviedb.title}
                 id={themoviedb.id}
+                vote_average={themoviedb.vote_average}
                 image={themoviedb.backdrop_path ? `https://image.tmdb.org/t/p/w200/${themoviedb.backdrop_path}` : 'https://picsum.photos/200/100'}
               />
             </div>
