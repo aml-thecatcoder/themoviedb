@@ -20,7 +20,7 @@ const App: React.FC = () => {
   const apiKey = "b649fbe0c4c1cfd8d1ad939a45e7d213";
   const [Themoviedbs, setThemoviedbs] = useState<Themoviedb[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
-  const [isSearching, setIsSearching] = useState<boolean>(true);
+  const [isSearching, setIsSearching] = useState<boolean>(false);
   const [page, setPage] = useState<number>(1);
   const [keyword, setKeyword] = useState("");
   const [viewDetail, setDetail] = useState<Detail>({
