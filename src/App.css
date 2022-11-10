@@ -41,3 +41,9 @@ body {
   font-weight: 600;
   color: #ffffff;
 }
+
+.search-input {
+  min-height: 50px;
+  width: 30%;
+  padding: 1rem;
+}

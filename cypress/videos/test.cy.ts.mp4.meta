@@ -1,0 +1,26 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=476
+END=4042
+title=empty spec has the title of the first page
+[CHAPTER]
+TIMEBASE=1/1000
+START=7012
+END=7618
+title=empty spec has movie items
+[CHAPTER]
+TIMEBASE=1/1000
+START=-4030
+END=8234
+title=empty spec can click each movie item and returns single item display
+[CHAPTER]
+TIMEBASE=1/1000
+START=19577
+END=20501
+title=empty spec can click on load more button
+[CHAPTER]
+TIMEBASE=1/1000
+START=19794
+END=21611
+title=empty spec searches by typing the keyword to the search field and returns matched results

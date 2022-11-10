@@ -33,14 +33,14 @@ const ThemoviedbList: React.FC<Props> = (props) => {
               X
             </p>
             <div className="detail-info">
-              <img src={'https://image.tmdb.org/t/p/w200/' + image} alt="themoviedb" className="detail-img" />
+              <img src={image} alt="themoviedb" className="detail-img" />
               <p className="detail-name">{fullTitle}</p>
             </div>
           </div>
         </section>
       ) : (
         <section className="themoviedb-list-container">
-          <img src={'https://image.tmdb.org/t/p/w300/' + image} alt="themoviedb" />
+          <img src={image} alt="themoviedb" />
           <p className="themoviedb-name">{title}</p>
         </section>
       )}

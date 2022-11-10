@@ -25,8 +25,8 @@ const ThemoviedbColection: React.FC<Props> = (props) => {
       <section
         className={
           viewDetail.isOpened
-            ? "collection-container-active"
-            : "collection-container"
+            ? "collection-container-active movies"
+            : "collection-container movies"
         }
       >
         {viewDetail.isOpened ? (
@@ -46,7 +46,7 @@ const ThemoviedbColection: React.FC<Props> = (props) => {
                 }
                 fullTitle={themoviedb.title}
                 id={themoviedb.id}
-                image={themoviedb.backdrop_path}
+                image={themoviedb.backdrop_path ? `https://image.tmdb.org/t/p/w200/${themoviedb.backdrop_path}` : 'https://picsum.photos/200/100'}
               />
             </div>
           );
