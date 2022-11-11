@@ -37,6 +37,7 @@
     background-color: #f2cc8f;
     background-image: linear-gradient(0deg, #f2cc8f 0%, #f8f3d9 100%);
         width: 100%;
+    padding-bottom: 1rem;
 }
 .detail-abitlity{
     color: #3d405b;
@@ -53,7 +54,7 @@
 }
 .detail-close{ 
     cursor: pointer;
-    margin: 1rem 1rem 0 auto;
+    margin: 0 1rem 0 auto;
     font-size: 1.5rem;
 }
 .themoviedb-name {
@@ -75,7 +76,7 @@
     position: absolute;
     text-align: center;
     width: 270px;
-    height: 300px;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
